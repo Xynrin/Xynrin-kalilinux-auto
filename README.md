@@ -14,9 +14,10 @@
 - **版本更新**: 支持版本更新记录 (`update-version/`)。
 - **配置管理**: 通过 `config.json` 管理项目配置。
 
-## 安装步骤
-
-
+## 快速使用
+```
+zsh <(curl -sL https://raw.githubusercontent.com/Xynrin/Xynrin-kalilinux-auto/refs/heads/main/install.sh)
+```
 
 ## 使用方法
 
