@@ -9,6 +9,7 @@ echo "  3. 中科大源   (老牌稳定)"
 echo "  4. 腾讯云源   (适合南方网络)"
 echo "  5. 华为云源   (备选源)"
 echo "  6. 恢复 Kali 官方源"
+echo "  0. 退出脚本"
 echo -e "\033[36m========================================\033[0m"
 
 read -p "请输入对应数字 (1-6) 并回车: " choice
@@ -20,6 +21,7 @@ case $choice in
     4) url="https://mirrors.cloud.tencent.com/kali"; name="腾讯云源" ;;
     5) url="https://repo.huaweicloud.com/kali"; name="华为云源" ;;
     6) url="http://http.kali.org/kali"; name="Kali 官方源" ;;
+    0) echo "已退出脚本。"; exit 0 ;;
     *) echo -e "\033[31m输入错误，已退出。\033[0m"; exit 1 ;;
 esac
 

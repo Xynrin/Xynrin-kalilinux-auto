@@ -14,8 +14,8 @@ BASE_URL="https://raw.githubusercontent.com/${github_name}/${code_name}/${github
 
 
 # 克隆仓库
-git clone ${git_clone_github_url} ~/${code_name} && echo "克隆仓库成功: ${git_clone_github_url}" || { echo "克隆仓库失败: ${git_clone_github_url}"; exit 1; }
-cd ~/${code_name} 
+cd ~ && git clone ${git_clone_github_url}  && echo "克隆仓库成功: ${git_clone_github_url}" || { echo "克隆仓库失败: ${git_clone_github_url}"; exit 1; }
+cd ${code_name} 
 
 
 # 自动执行换源脚本和安装依赖脚本
