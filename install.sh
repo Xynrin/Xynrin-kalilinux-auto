@@ -6,12 +6,12 @@
 
 # 全局配置
 
-go_github-url="https://gh-proxy.org"                                                                                                                      # github加速地址
+go_github_url="https://gh-proxy.org"                                                                                                                      # github加速地址
 code_name="Xynrin-kalilinux-auto"
 github_name="Xynrin"                                                                                                                                      # github用户名
 github_master="main"                                                                                                                                      # 仓库分支，默认为main
-git_clone-github_url="${go_github-url}/https://github.com/${github_name}/${code_name}.git"                                                                # 克隆仓库的URL，使用gh-proxy加速
-BASE_URL="${go_github-url}/https://raw.githubusercontent.com/${github_name}/${code_name}/${github_master}"                                                # 代码仓库的基础URL，用于后续下载脚本和依赖
+git_clone_github_url="${go_github_url}/https://github.com/${github_name}/${code_name}.git"                                                                # 克隆仓库的URL，使用gh-proxy加速
+BASE_URL="${go_github_url}/https://raw.githubusercontent.com/${github_name}/${code_name}/${github_master}"                                                # 代码仓库的基础URL，用于后续下载脚本和依赖
 
 
 
